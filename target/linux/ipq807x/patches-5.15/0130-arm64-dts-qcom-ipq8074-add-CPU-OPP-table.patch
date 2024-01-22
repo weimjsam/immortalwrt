@@ -58,42 +58,42 @@ Signed-off-by: Robert Marko <robimarko@gmail.com>
 +			opp-hz = /bits/ 64 <1017600000>;
 +			opp-microvolt = <1>;
 +			opp-supported-hw = <0xf>;
-+			clock-latency-ns = <200000>;
++			clock-latency-ns = <100000>;
 +		};
 +
 +		opp-1382400000 {
 +			opp-hz = /bits/ 64 <1382400000>;
 +			opp-microvolt = <2>;
 +			opp-supported-hw = <0xf>;
-+			clock-latency-ns = <200000>;
++			clock-latency-ns = <100000>;
 +		};
 +
 +		opp-1651200000 {
 +			opp-hz = /bits/ 64 <1651200000>;
 +			opp-microvolt = <3>;
-+			opp-supported-hw = <0x1>;
-+			clock-latency-ns = <200000>;
++			opp-supported-hw = <0xf>;
++			clock-latency-ns = <100000>;
 +		};
 +
 +		opp-1843200000 {
 +			opp-hz = /bits/ 64 <1843200000>;
 +			opp-microvolt = <4>;
-+			opp-supported-hw = <0x1>;
-+			clock-latency-ns = <200000>;
++			opp-supported-hw = <0xf>;
++			clock-latency-ns = <100000>;
 +		};
 +
 +		opp-1920000000 {
 +			opp-hz = /bits/ 64 <1920000000>;
 +			opp-microvolt = <5>;
-+			opp-supported-hw = <0x1>;
-+			clock-latency-ns = <200000>;
++			opp-supported-hw = <0xf>;
++			clock-latency-ns = <100000>;
 +		};
 +
 +		opp-2208000000 {
 +			opp-hz = /bits/ 64 <2208000000>;
 +			opp-microvolt = <6>;
-+			opp-supported-hw = <0x1>;
-+			clock-latency-ns = <200000>;
++			opp-supported-hw = <0xf>;
++			clock-latency-ns = <100000>;
 +		};
 +	};
 +
